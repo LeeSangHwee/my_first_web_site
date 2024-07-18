@@ -1,0 +1,62 @@
+/*CSS Style Tag*/
+/*Common*/
+a {
+  color:black;
+  text-decoration: none;
+}
+/*Title*/
+h1 {
+  font-size: 100px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin: 0px;
+  padding: 10px;
+}
+/*Content Frame*/      
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  font-size: 20px;
+  margin: 0;
+  padding: 20px;
+  border-right: 1px solid gray;
+  width: 150px;
+}
+/*ol {
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
+}*/
+#grid ul {
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px;
+}
+/*ul {
+  font-size: 16px;
+  margin: 0px;
+  padding: 10px;
+}*/
+/*Content Detail*/
+#grid h2 {
+  font-size: 50px;
+  margin: 0px;
+  padding: 10px;   
+}
+/*Content - CSS*/
+#grid #article{
+  padding-left: 70px;
+}
+@media(max-width:800px){
+  h1{
+    border-bottom: none;
+  }
+  #grid{
+    display:block;
+  }
+  #grid ol{
+    border-right:none;          
+  }
+}

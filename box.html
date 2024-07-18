@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            h1{
+                border:5px solid red;
+                padding: 20px;
+                margin: 0;
+                display: block;
+                width: 100;
+            }
+            /*level element
+            h1, a{
+                border:5px solid red;
+                위랑 아래 같은 의미
+                border-width: 5px;
+                border-color: red;
+                border-style: solid;
+                
+                아래는 박스 치는 코드
+                display:block or inline or none;
+            }*/
+        </style>
+    </head>
+    <body>
+        <h1><strong>CSS</strong></h1> 
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/OEV8gMkCHXQ?si=wpNiMrxz4l-HmfvR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+        HTML 등의 마크업 언어로 작성된 문서가 실제로 웹사이트에 표현되는 방법을 정해주는 스타일 시트 언어.<br>
+        
+        <p>CSS(<a href="https://namu.wiki/w/CSS">cascading Style Sheets</a>)의 C가 Cascading의 약자인데, 이는 상위 요소의 스타일 속성을 자손 요소들에게 상속시켜주는 모습이 DOM 트리구조에서 마치 폭포수처럼 내려가는 모습을 닮았기 때문이다.
+        다만 예외로 마진, 패딩, 보더 등의 박스모델 관련 속성은 상속되지 않는다.
+        물론 inherit 값을 줘서 강제로 상속시킬 순 있다.</p>
+        
+        스타일 시트 언어이므로 일반적인 프로그래밍 언어와는 다른 종류의 기능을 하지만 HTML과 연결시키면 다음 코드로 Hello World를 출력할 수 있기도 하다.<br>
+        <br>
+        <h6><u>- End -</u></h6>
+        <br>
+        <p>
+            <div id="disqus_thread"></div>
+                <script>
+                        /**        
+                         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.  
+                         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */    
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */       
+                       (function() { // DON'T EDIT BELOW THIS LINE
+                               var d = document, s = d.createElement('script');
+                                s.src = 'https://manbedded.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                                })(); 
+                               </script>
+                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>        
+        </p>   
+    </body>
+</html>    
+        
